@@ -1,0 +1,63 @@
+{
+  "HEADER": {
+    "NAV1": "ACCUEIL",
+    "NAV2": "BIÈRES",
+    "NAV3": "LIEUX"
+  },
+  "HOME": {
+    "TITLE": "L'endroit où les buveurs et les bières se rencontrent...",
+    "SUBTITLE": "Notre Concept",
+    "CONCEPT": "Notre site est fait pour ceux qui aiment les bières. Ici, vous pouvez trouver où boire la bière que vous recherchez. Vous pouvez également trouver la liste des bières de différents endroits pour planifier votre prochaine soirée !",
+    "PLACE": "Où peut-on boire une bière spéciale ?",
+    "MENU": "Que pouvez-vous commander dans un endroit ?",
+    "TEAM": {
+      "TITLE": "Notre équipe",
+      "Cyril": "Voyageur français qui aime découvrir de nouvelles saveurs du monde entier.",
+      "Cedric": "Notre spécialiste, un homme expérimenté avec une grande connaissance des bières."
+    }
+  },
+  "BEERS": {
+    "TITLE": "Trouver ta bière",
+    "BEER_TYPE": "Type de bière",
+    "SUBTITLE": "Bières",
+    "CREATE": "Créer une bière",
+    "UPDATE": "Modifier une bière",
+    "DELETE": "Supprimer une bière",
+    "DATE": "Crée le",
+    "DELETE_MESSAGE": "Êtes-vous sûr de vouloir supprimer cette bière?",
+    "ABV": "Alcool en volume",
+    "TOAST": {
+      "CREATE": "Créée avec succès !",
+      "UPDATE": "Mis à jour avec succès !",
+      "DELETE": "Supprimé avec succès !"
+    }
+  },
+  "PLACES": {
+    "TITLE": "Trouver un lieu",
+    "SUBTITLE": "Lieux",
+    "CITY": "Ville",
+    "ADDRESS": "Adresse",
+    "PLACE_TYPE": "Type de lieu",
+    "CREATE": "Créer un lieu",
+    "UPDATE": "Modifier un lieu",
+    "DELETE": "Supprimer un lieu",
+    "DATE": "Crée le",
+    "DELETE_MESSAGE": "Êtes-vous sûr de vouloir supprimer ce lieu?",
+    "MORE_DETAILS": "Plus de détails",
+    "TOAST": {
+      "CREATE": "Créée avec succès !",
+      "UPDATE": "Mis à jour avec succès !",
+      "DELETE": "Supprimé avec succès !"
+    }
+  },
+  "CLICK_HERE": {
+    "TITLE": "Cliquez ici"
+  },
+  "CANCEL": {
+    "TITLE": "Annuler"
+  },
+  "NOT_FOUND": {
+    "MESSAGE": "Désolé, mais la page que vous recherchez n'existe pas, a été supprimée, a changé de nom ou est temporairement indisponible.",
+    "PREVIOUS_PAGE": "Retour à la page précédente"
+  }
+}

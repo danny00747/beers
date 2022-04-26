@@ -1,0 +1,172 @@
+[
+  {
+    "id": "1",
+    "name": "Tripel Karmeliet",
+    "typeId": "18",
+    "imageSrc": "tripel-karmeliet.png",
+    "description": {
+      "en": "This strong Tripel (8.4%) is brewed with barley, wheat and oats. It’s a perfectly balanced beer that’s delicious to taste with many types of cheeses, especially with creamy brie.",
+      "fr": "Cette Tripel forte (8,4%) est brassée avec de l'orge, du blé et de l'avoine. C'est une bière parfaitement équilibrée qui est délicieuse à déguster avec de nombreux types de fromages, notamment avec du brie crémeux"
+    },
+    "abv": 8.4,
+    "placesId": [
+      "3",
+      "5",
+      "8",
+      "10"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Affligem Blond",
+    "typeId": "15",
+    "description": {
+      "en": "This special abbey beer has delicate white head and soft, rich taste. The typical Affligem yeast gives a nice, fruity touch to our best-selling Blond.",
+      "fr": "Cette bière d'abbaye spéciale a une délicate mousse blanche et un goût doux et riche. La levure typique d'Affligem donne une belle touche fruitée à notre blonde la plus vendue"
+    },
+    "imageSrc": "affligem_blond_2.png",
+    "abv": 6.8,
+    "placesId": [
+      "2",
+      "6",
+      "8",
+      "9",
+      "10"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Chimay Blue",
+    "typeId": "14",
+    "imageSrc": "chimay---blauw_v2.png",
+    "description": {
+      "en": "Are you a fan of Tripels, but less so into dark beers? Let yourself be convinced by the king of Chimay! The dark malt remains subtle; you’ll taste it in the form of caramel and toffee.",
+      "fr": "Vous êtes fan de Tripels, mais moins de bières brunes ? Laissez-vous convaincre par la reine de Chimay ! Le malt foncé reste subtil, vous le goûterez sous forme de caramel et de toffee."
+    },
+    "abv": 9,
+    "placesId": [
+      "1",
+      "5",
+      "8",
+      "9",
+      "10"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Duvel",
+    "typeId": "2",
+    "imageSrc": "duvel.png",
+    "description": {
+      "en": "With an alcohol percentage of 8.5%, Duvel is a typical Belgian powerhouse. The alcohol gives it sweetness, while the hop varieties Saaz and Styrian Golding provide a fruity, orangey character",
+      "fr": "Avec un taux d'alcool de 8,5 %, la Duvel est une bière belge typique. L'alcool lui donne de la douceur, tandis que les variétés de houblon Saaz et Styrian Golding lui confèrent un caractère fruité et orangé."
+    },
+    "abv": 8.5,
+    "placesId": [
+      "2",
+      "8",
+      "10"
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Pauwel Kwak",
+    "typeId": "14",
+    "imageSrc": "pauwel---kwak.png",
+    "description": {
+      "en": "In this amber-coloured beer you can taste toffee and spicy tones, together with an orange-like fruitiness. It is soft, sweet and slightly bitter, and it’s loved by many.",
+      "fr": "Dans cette bière de couleur ambrée, vous pouvez goûter des notes de caramel et d'épices, ainsi qu'un goût fruité d'orange. Elle est douce, sucrée et légèrement amère, et elle est appréciée par beaucoup."
+    },
+    "abv": 8.4,
+    "placesId": [
+      "4",
+      "5",
+      "7",
+      "8",
+      "10"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Westmalle Tripel",
+    "typeId": "18",
+    "imageSrc": "westmalle-tripel.png",
+    "description": {
+      "en": "It truly is a fantastic Tripel, full of yummy fruit aromas of banana and pear with a certain spicy touch. The beer is also quite hopped, which balances beautifully with the firm body and sweetness.",
+      "fr": "C'est vraiment une Tripel fantastique, pleine de délicieux arômes fruités de banane et de poire avec une certaine touche épicée. La bière est également assez houblonnée, ce qui s'équilibre parfaitement avec son corps ferme et sa douceur."
+    },
+    "abv": 9.5,
+    "placesId": [
+      "1",
+      "4",
+      "7",
+      "10"
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Rochefort 8",
+    "typeId": "13",
+    "imageSrc": "rochefort---8_v2.png",
+    "description": {
+      "en": "This strong, dark beer is really one to enjoy quietly. It has a tawnier colour than its counterpart. It has a very rich dryness, like that of a cake, which gives a balanced finish to the final notes.",
+      "fr": "Cette bière forte et brune est vraiment une bière à déguster tranquillement. Elle a une couleur plus fauve que son homologue. Elle possède une sécheresse très riche, comme celle d'un gâteau, qui donne un équilibre aux notes finales."
+    },
+    "abv": 9.2,
+    "placesId": [
+      "4",
+      "5",
+      "9",
+      "10"
+    ]
+  },
+  {
+    "id": "8",
+    "name": "La Chouffe Blonde D'ardenne",
+    "typeId": "2",
+    "imageSrc": "la-chouffe---blonde_v2.png",
+    "description": {
+      "en": "The beer itself looks seductive with its golden colour and firm head. What many people notice first are the notes of coriander, orange peel and mandarin. It tastes pleasantly sweet, but fruity and fresh. The finish is soft and a little spicy, just how you want this beer to end.",
+      "fr": "La bière elle-même est séduisante avec sa couleur dorée et sa mousse ferme. Ce que beaucoup de gens remarquent d'abord, ce sont les notes de coriandre, d'écorce d'orange et de mandarine. Son goût est agréablement doux, mais fruité et frais. La finale est douce et un peu épicée, exactement comme vous voulez que cette bière se termine."
+    },
+    "abv": 8,
+    "placesId": [
+      "2",
+      "6",
+      "8",
+      "9",
+      "10"
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Troubadour Magma",
+    "typeId": "3",
+    "imageSrc": "troubadour-magma.png",
+    "description": {
+      "en": "Troubadour Magma has the typical fruit flavours of an IPA, like passion fruit, citrus and mango, nicely combined with fruity yeast flavours of apple and pineapple. The biscuit-like malt flavour will remind you of an IPA, but the body and amount of alcohol (9%) is more typical of a tripel.",
+      "fr": "La Troubadour Magma possède les arômes fruités typiques d'une IPA, comme le fruit de la passion, les agrumes et la mangue, joliment combinés à des arômes fruités de levure, de pomme et d'ananas. La saveur de malt de type biscuit vous rappellera une IPA, mais le corps et la quantité d'alcool (9%) sont plus typiques d'une tripel."
+    },
+    "abv": 9,
+    "placesId": [
+      "1",
+      "10"
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Orval",
+    "typeId": "2",
+    "imageSrc": "orval.png",
+    "description": {
+      "en": "A young Orval is still a bit sweet and hoppy. Over time, this trappist becomes dryer, more sparkling and more complex. A sour note develops with typical Brett aromas, which are best described as farmyard or a horse blanket.",
+      "fr": "Un jeune Orval est encore un peu sucré et houblonné. Avec le temps, cette trappiste devient plus sèche, plus pétillante et plus complexe. Une note acidulée se développe avec des arômes typiques de Brett, que l'on peut décrire comme de la basse-cour ou une couverture de cheval."
+    },
+    "abv": 6.2,
+    "placesId": [
+      "3",
+      "7",
+      "10"
+    ]
+  }
+]

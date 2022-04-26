@@ -1,0 +1,19 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  .header {
+    display: flex;
+    padding: 30px 50px;
+
+    h1 {
+      flex: 1;
+      margin: 0 50px 0 0;
+    }
+
+    .mat-form-field {
+      margin-right: 30px;
+    }
+  }
+}

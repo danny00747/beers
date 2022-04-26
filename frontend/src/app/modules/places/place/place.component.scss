@@ -1,0 +1,14 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  .infos {
+    padding: 50px;
+  }
+
+
+  .mat-display-2 {
+    margin: 0 50px 30px;
+  }
+}

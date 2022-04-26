@@ -1,0 +1,44 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  .beer {
+    display: flex;
+    padding: 50px;
+
+    .infos {
+      flex: 1;
+
+      .row {
+        display: flex;
+
+        span {
+          flex: 1;
+        }
+      }
+    }
+
+    img {
+      height: 250px;
+      flex: 1;
+      object-fit: contain;
+    }
+  }
+
+  .mat-display-2 {
+    margin: 0 50px 30px;
+  }
+}
+
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+

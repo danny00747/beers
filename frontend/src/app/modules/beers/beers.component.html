@@ -1,0 +1,18 @@
+<form class="header" [formGroup]="beerFilter">
+  <h1 class="mat-display-2">{{ 'BEERS.TITLE' | translate }}</h1>
+  <mat-form-field>
+    <mat-label>{{ 'BEERS.BEER_TYPE' | translate }} </mat-label>
+    <mat-select formControlName="typeId">
+      <mat-option [value]="undefined"></mat-option>
+      <mat-option *ngFor="let beerType of beerTypes" [value]="beerType.id">{{ beerType.name }}</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>{{ 'BEERS.ABV' | translate }}</mat-label>
+    <input matInput type="number" min="0" max="12" formControlName="abv">
+  </mat-form-field>
+  <button mat-fab color="primary" (click)="openDialog()" title="{{ 'BEERS.CREATE' | translate }}">
+    <mat-icon>add</mat-icon>
+  </button>
+</form>
+<app-beer-list [beers]="beers"></app-beer-list>

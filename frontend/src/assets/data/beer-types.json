@@ -1,0 +1,202 @@
+[
+  {
+    "id": "1",
+    "name": "Wheat",
+    "color": "#FFD978"
+  },
+  {
+    "id": "2",
+    "name": "Pale Ale",
+    "color": "#FFBE45"
+  },
+  {
+    "id": "3",
+    "name": "India Pale Ale",
+    "color": "#F4AA00"
+  },
+  {
+    "id": "4",
+    "name": "Bitter",
+    "color": "#DF7D01"
+  },
+  {
+    "id": "5",
+    "name": "Amber Ale",
+    "color": "#B14305"
+  },
+  {
+    "id": "6",
+    "name": "Irish Red Ale",
+    "color": "#BC3431"
+  },
+  {
+    "id": "7",
+    "name": "Barley Wine",
+    "color": "#A63D02"
+  },
+  {
+    "id": "8",
+    "name": "Brown Ale",
+    "color": "#9C3200"
+  },
+  {
+    "id": "9",
+    "name": "Mild Ale",
+    "color": "#E79007"
+  },
+  {
+    "id": "10",
+    "name": "Stout",
+    "color": "#35090A"
+  },
+  {
+    "id": "11",
+    "name": "Porter",
+    "color": "#480601"
+  },
+  {
+    "id": "12",
+    "name": "Scotch Ale",
+    "color": "#7F1903"
+  },
+  {
+    "id": "13",
+    "name": "Old Ale",
+    "color": "#A03700"
+  },
+  {
+    "id": "14",
+    "name": "Belgian Ales",
+    "color": "#CC6200"
+  },
+  {
+    "id": "15",
+    "name": "Blond Ale",
+    "color": "#FCB123"
+  },
+  {
+    "id": "16",
+    "name": "Saison",
+    "color": "#E28800"
+  },
+  {
+    "id": "17",
+    "name": "Dubbel",
+    "color": "#D06B00"
+  },
+  {
+    "id": "18",
+    "name": "Tripel",
+    "color": "#FBA401"
+  },
+  {
+    "id": "19",
+    "name": "Pale Lager",
+    "color": "#FFC146"
+  },
+  {
+    "id": "20",
+    "name": "Light Lager",
+    "color": "#FDD979"
+  },
+  {
+    "id": "21",
+    "name": "Pilsner",
+    "color": "#FAC145"
+  },
+  {
+    "id": "22",
+    "name": "Dortmunder",
+    "color": "#F9A700"
+  },
+  {
+    "id": "23",
+    "name": "Munich Helles",
+    "color": "#FFBE41"
+  },
+  {
+    "id": "24",
+    "name": "Amber Lager",
+    "color": "#D06A00"
+  },
+  {
+    "id": "25",
+    "name": "Vienna Lager",
+    "color": "#D26407"
+  },
+  {
+    "id": "26",
+    "name": "Oktoberfest",
+    "color": "#F9990C"
+  },
+  {
+    "id": "27",
+    "name": "Rauchbier",
+    "color": "#902704"
+  },
+  {
+    "id": "28",
+    "name": "Bock",
+    "color": "#992C02"
+  },
+  {
+    "id": "29",
+    "name": "Traditional Bock",
+    "color": "#A63E01"
+  },
+  {
+    "id": "30",
+    "name": "Maibock",
+    "color": "#E48601"
+  },
+  {
+    "id": "31",
+    "name": "Doppelbock",
+    "color": "#842300"
+  },
+  {
+    "id": "32",
+    "name": "Eisbock",
+    "color": "#650804"
+  },
+  {
+    "id": "33",
+    "name": "Dark Lager",
+    "color": "#8D2B00"
+  },
+  {
+    "id": "34",
+    "name": "Schwarzbier",
+    "color": "#57090C"
+  },
+  {
+    "id": "35",
+    "name": "Munich Dunkel",
+    "color": "#6D0F03"
+  },
+  {
+    "id": "36",
+    "name": "Lambic",
+    "color": "#9D1104"
+  },
+  {
+    "id": "37",
+    "name": "Gueuze",
+    "color": "#F59C00"
+  },
+  {
+    "id": "38",
+    "name": "Faro",
+    "color": "#9C3103"
+  },
+  {
+    "id": "39",
+    "name": "Fruit Lambic",
+    "color": "#A72328"
+  },
+  {
+    "id": "40",
+    "name": "Kriek",
+    "color": "#B82A29"
+  }
+]

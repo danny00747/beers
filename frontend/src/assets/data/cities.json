@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "name": "Brussels"
+  },
+  {
+    "id": "2",
+    "name": "Antwerp"
+  },
+  {
+    "id": "3",
+    "name": "Brugge"
+  },
+  {
+    "id": "4",
+    "name": "Izegem"
+  },
+  {
+    "id": "5",
+    "name": "Eizeringen"
+  },
+  {
+    "id": "6",
+    "name": "Sint-Truiden"
+  },
+  {
+    "id": "7",
+    "name": "Denderleeuw"
+  },
+  {
+    "id": "8",
+    "name": "Oostvleteren"
+  }
+]

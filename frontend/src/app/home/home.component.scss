@@ -1,0 +1,74 @@
+:host {
+  overflow: auto;
+
+  .banner {
+    background: center / cover url('../../assets/images/banner.jpg') no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .mat-display-3 {
+      text-shadow: 5px 5px 5px black;
+      margin: 0;
+    }
+  }
+
+  .concept {
+    display: flex;
+
+    .concept-content {
+      padding: 50px;
+    }
+
+    img {
+      object-fit: cover;
+    }
+  }
+
+  .looking-for {
+    display: flex;
+
+    .option {
+      flex: 1;
+      padding: 5% 0;
+      text-align: center;
+
+      &.place {
+        background-color: #7B1FA2;
+      }
+
+      &.beer {
+        background-color: #69F0AE;
+        color: #000000de;
+      }
+
+      mat-icon {
+        font-size: 100px;
+        height: 100px;
+        width: 100px;
+      }
+
+      .mat-display-2 {
+        margin: 0 0 30px;
+      }
+
+      .mat-display-1 {
+        margin: 0;
+      }
+    }
+  }
+
+  .team {
+    padding: 50px;
+
+    .team-content {
+      display: flex;
+      justify-content: space-evenly;
+
+      .person {
+        width: 200px;
+      }
+    }
+  }
+}
