@@ -1,26 +1,13 @@
-<section *ngIf="beer; else not_found">
-  <div class="beer" *ngIf="currentLang$ | async as currentLang">
-    <div class="infos">
-      <h1 class="mat-display-1">{{ beer.name }}</h1>
-      <h1 class="row">
-        <span>Type: {{ beer.typeId | beerTypeName | async }}</span>
-        <span>{{ 'BEERS.ABV' | translate }} : {{ beer.abv }}%</span>
-      </h1>
-      <h2>{{ beer.description[currentLang]}}</h2>
-    </div>
-    <img *ngIf="beer" alt="Beer" [src]="'assets/images/beers/' + beer.imageSrc">
+<div *ngIf="beer" class="beer">
+  <div class="infos">
+    <h1 class="mat-display-1">{{ beer.name }}</h1>
+    <h1 class="row">
+      <span>Type: {{ beer.typeId | beerTypeName | async }}</span>
+      <span i18n="@@beer.abv">ABV: {{ beer.abv }}%</span>
+    </h1>
+    <h2>{{ beer.description[currentLocal] }}</h2>
   </div>
-
-  <h1 class="mat-display-2">{{ 'PLACES.SUBTITLE' | translate }} </h1>
-  <app-place-list [places]="places"></app-place-list>
-
-</section>
-
-
-<ng-template #not_found>
-
-  <app-not-found [errorMessage]="errorMessage"></app-not-found>
-
-</ng-template>
-
-
+  <img *ngIf="beer" alt="Beer" [src]="'assets/images/beers/' + beer.imageSrc">
+</div>
+<h1 class="mat-display-2"  i18n="@@places.subtitle">Places</h1>
+<app-place-list [places]="places"></app-place-list>

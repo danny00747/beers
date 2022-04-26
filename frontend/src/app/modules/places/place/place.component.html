@@ -1,19 +1,12 @@
-<section *ngIf="place; else not_found">
+
 <div class="infos">
   <h1 class="mat-display-1">
     {{ place?.name }}
     <a mat-icon-button [href]="place?.url" target="_blank"><mat-icon>open_in_new</mat-icon></a>
   </h1>
   <h1>Type: {{ place?.type }}</h1>
-  <h1>{{ 'PLACES.CITY' | translate }}: {{ place?.cityId | cityName | async }}</h1>
-  <h1>{{ 'PLACES.ADDRESS' | translate }}: {{ place?.address }}</h1>
+  <h1 i18n="@@place.city">City: {{ place?.cityId | cityName | async }}</h1>
+  <h1 i18n="@@place.address">Address: {{ place?.address }}</h1>
 </div>
-<h1 class="mat-display-2">{{ 'BEERS.SUBTITLE' | translate }}</h1>
+<h1 class="mat-display-2" i18n="@@beer.subtitle">Beers</h1>
 <app-beer-list [beers]="beers"></app-beer-list>
-</section>
-
-<ng-template #not_found>
-
-  <app-not-found [errorMessage]="errorMessage"></app-not-found>
-
-</ng-template>

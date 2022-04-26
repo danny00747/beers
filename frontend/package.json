@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --proxy-config proxy.conf.json",
+    "start": "ng serve",
+    "start:fr": "ng serve --configuration=fr --port 5555",
+    "translate": "ng extract-i18n --output-path ./src/assets/i18n",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
@@ -20,9 +22,6 @@
     "@angular/platform-browser": "~12.2.0",
     "@angular/platform-browser-dynamic": "~12.2.0",
     "@angular/router": "~12.2.0",
-    "@ngx-translate/core": "^14.0.0",
-    "@fortawesome/fontawesome-free": "^5.15.1",
-    "@ngx-translate/http-loader": "^7.0.0",
     "angular-in-memory-web-api": "^0.11.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",

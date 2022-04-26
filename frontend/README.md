@@ -4,7 +4,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server 
 
+### 1. English version 
+
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+### 2. French version
+
+Run `npm run start:fr` for a dev server. Navigate to `http://localhost:5555/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 

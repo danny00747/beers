@@ -17,9 +17,8 @@
       "sourceRoot": "src",
       "prefix": "app",
       "i18n": {
-        "sourceLocale": "en",
         "locales": {
-          "fr": "src/locales/messages.fr.xlf"
+          "fr": "src/assets/i18n/messages.fr.xlf"
         }
       },
       "architect": {
@@ -38,10 +37,6 @@
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/purple-green.css",
-              "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
-              "node_modules/@fortawesome/fontawesome-free/css/brands.min.css",
-              "node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css",
-              "node_modules/@fortawesome/fontawesome-free/css/v4-shims.min.css",
               "src/styles.scss"
             ],
             "scripts": []

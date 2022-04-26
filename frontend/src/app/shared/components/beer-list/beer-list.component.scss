@@ -20,30 +20,6 @@
 
     .infos {
       flex: 1;
-      display: flex;
-      flex-direction: column;
-
-      .header {
-        display: flex;
-        justify-content: space-between;
-
-        .actions {
-          flex-shrink: 0;
-
-          button:first-child {
-            margin-right: 10px;
-          }
-        }
-      }
-
-      .space {
-        flex: 1;
-      }
-
-      h4 {
-        text-align: right;
-        margin: 0;
-      }
     }
   }
 }

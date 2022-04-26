@@ -1,6 +1,5 @@
 :host {
-
-  display: flex;
+  position: sticky;
 
   mat-icon {
     margin-right: 10px;
@@ -9,27 +8,4 @@
   button {
     margin-left: 20px;
   }
-
-  .space{
-    flex: 1;
-  }
-
-  .matLabel {
-    font-size: 18px;
-  }
-
-  ::ng-deep.mat-form-field-infix {
-    width: 50px;
-    text-transform: uppercase;
-  }
-
-  .mat-icon{
-    vertical-align: middle;
-  }
-
-  .loginBtn{
-    margin-right: 30px;
-  }
-
-
 }

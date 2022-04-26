@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en" datatype="plaintext" original="ng2.template">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="app.title" datatype="html">
+        <source>Hold My Beer</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/header/header.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="home.btn" datatype="html">
         <source>HOME</source>
-        <target>ACCUEIL</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/header/header.component.html</context>
           <context context-type="linenumber">3</context>
@@ -12,7 +18,6 @@
       </trans-unit>
       <trans-unit id="beer.btn" datatype="html">
         <source>BEERS</source>
-         <target>BIÈRES</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/header/header.component.html</context>
           <context context-type="linenumber">4</context>
@@ -20,7 +25,6 @@
       </trans-unit>
       <trans-unit id="places.btn" datatype="html">
         <source>PLACES</source>
-         <target>LIEUX</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/core/header/header.component.html</context>
           <context context-type="linenumber">5</context>
@@ -28,7 +32,6 @@
       </trans-unit>
       <trans-unit id="home.title" datatype="html">
         <source>The place where drinkers and beers meet...</source>
-        <target>L'endroit où les buveurs et les bières se rencontrent...</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">2</context>
@@ -36,7 +39,6 @@
       </trans-unit>
       <trans-unit id="home.subtitle" datatype="html">
         <source>Our Concept</source>
-        <target>Notre Concept</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">6</context>
@@ -44,15 +46,20 @@
       </trans-unit>
       <trans-unit id="home.concept" datatype="html">
         <source> Our website is made for those who loves beers. Here you can find where to drink a beer that you&apos;re looking for. You can also find the beer list of different place to plan your next evening! </source>
-        <target>Notre site est fait pour ceux qui aiment les bières. Ici, vous pouvez trouver où boire la bière que vous recherchez. Vous pouvez également trouver la liste des bières de différents endroits pour planifier votre prochaine soirée !</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">7,9</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="home.place" datatype="html">
+        <source>Where can you drink a special beer?</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="click.here" datatype="html">
         <source>Click here</source>
-        <target>Cliquez ici</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">17</context>
@@ -61,18 +68,9 @@
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">22</context>
         </context-group>
-       </trans-unit>
-      <trans-unit id="home.place" datatype="html">
-        <source>Where can you drink a special beer?</source>
-        <target>Où peut-on boire une bière spéciale ?</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
       </trans-unit>
       <trans-unit id="home.menu" datatype="html">
         <source>What can your order at a place?</source>
-        <target>Que pouvez-vous commander dans un endroit ?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">21</context>
@@ -80,7 +78,6 @@
       </trans-unit>
       <trans-unit id="home.team.title" datatype="html">
         <source>Our Team</source>
-        <target>Notre équipe</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">26</context>
@@ -88,7 +85,6 @@
       </trans-unit>
       <trans-unit id="home.team.cyril" datatype="html">
         <source>French traveler who loves to discover new taste from all around the world.</source>
-        <target>Voyageur français qui aime découvrir de nouvelles saveurs du monde entier.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">31</context>
@@ -96,7 +92,6 @@
       </trans-unit>
       <trans-unit id="home.team.cedric" datatype="html">
         <source>Our specialist, an experienced man with a great knowledge on beers.</source>
-        <target>Notre spécialiste, un homme expérimenté avec une grande connaissance des bières.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">36</context>
@@ -104,23 +99,13 @@
       </trans-unit>
       <trans-unit id="beer.title" datatype="html">
         <source>Find your beer</source>
-        <target>Trouver ta bière</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/beers/beers.component.html</context>
           <context context-type="linenumber">2</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="beer.subtitle" datatype="html">
-        <source>Beers</source>
-        <target>Bières</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/places/place/place.component.html</context>
-          <context context-type="linenumber">11,12</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="beer.type.label" datatype="html">
         <source>Beer type</source>
-         <target>Type de bière</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/beers/beers.component.html</context>
           <context context-type="linenumber">4</context>
@@ -128,71 +113,20 @@
       </trans-unit>
       <trans-unit id="beer.abv.label" datatype="html">
         <source>ABV</source>
-        <target>Alcool en volume</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/beers/beers.component.html</context>
           <context context-type="linenumber">11</context>
         </context-group>
-       </trans-unit>
-      <trans-unit id="beer.type" datatype="html">
-        <source>Beer type</source>
-        <target>Type de bière</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/beers/beers.component.html</context>
-          <context context-type="linenumber">4</context>
-        </context-group>
       </trans-unit>
-      <trans-unit id="beer.abv" datatype="html">
-        <source>ABV: <x id="INTERPOLATION" equiv-text="{{ beer?.abv }}"/>%</source>
-        <target>Alcool en volume: <x id="INTERPOLATION"/></target>
+      <trans-unit id="place.title" datatype="html">
+        <source>Find a place</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/beers/beer/beer.component.html</context>
-          <context context-type="linenumber">6,7</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/components/beer-list/beer-list.component.html</context>
-          <context context-type="linenumber">6,7</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="more.details" datatype="html">
-        <source>More details</source>
-        <target>Plus de détails</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/components/beer-list/beer-list.component.html</context>
-          <context context-type="linenumber">7,9</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/components/place-list/place-list.component.html</context>
-          <context context-type="linenumber">7,9</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="places.subtitle" datatype="html">
-        <source>Places</source>
-         <target>Lieux</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/modules/beers/beer/beer.component.html</context>
-          <context context-type="linenumber">12,13</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="place.city" datatype="html">
-        <source>City: <x id="INTERPOLATION" equiv-text="{{ place.cityId | cityName | async }}"/></source>
-        <target>Ville: <x id="INTERPOLATION"/></target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/components/place-list/place-list.component.html</context>
-          <context context-type="linenumber">5,6</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="place.address" datatype="html">
-        <source>Address: <x id="INTERPOLATION" equiv-text="{{ place.address }}"/></source>
-         <target>Adresse: <x id="INTERPOLATION"/></target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/components/place-list/place-list.component.html</context>
-          <context context-type="linenumber">6,7</context>
+          <context context-type="sourcefile">src/app/modules/places/places.component.html</context>
+          <context context-type="linenumber">2</context>
         </context-group>
       </trans-unit>
       <trans-unit id="place.type.label" datatype="html">
         <source>Place type</source>
-         <target>Type de lieu</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/places/places.component.html</context>
           <context context-type="linenumber">4</context>
@@ -200,20 +134,69 @@
       </trans-unit>
       <trans-unit id="place.city.label" datatype="html">
         <source>City</source>
-         <target>Ville</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/modules/places/places.component.html</context>
           <context context-type="linenumber">14</context>
         </context-group>
-       </trans-unit>
-       <trans-unit id="place.title" datatype="html">
-         <source>Find a place</source>
-         <target>Trouver un lieu</target>
-         <context-group purpose="location">
-           <context context-type="sourcefile">src/app/modules/places/places.component.html</context>
-           <context context-type="linenumber">2</context>
-         </context-group>
-       </trans-unit>
+      </trans-unit>
+      <trans-unit id="beer.abv" datatype="html">
+        <source>ABV: <x id="INTERPOLATION" equiv-text="{{ beer?.abv }}"/>%</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/beers/beer/beer.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/beer-list/beer-list.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="places.subtitle" datatype="html">
+        <source>Places</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/beers/beer/beer.component.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="place.city" datatype="html">
+        <source>City: <x id="INTERPOLATION" equiv-text="{{ place?.cityId | cityName | async }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/places/place/place.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/place-list/place-list.component.html</context>
+          <context context-type="linenumber">5,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="place.address" datatype="html">
+        <source>Address: <x id="INTERPOLATION" equiv-text="{{ place?.address }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/places/place/place.component.html</context>
+          <context context-type="linenumber">9,11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/place-list/place-list.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="beer.subtitle" datatype="html">
+        <source>Beers</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/modules/places/place/place.component.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="more.details" datatype="html">
+        <source>More details</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/beer-list/beer-list.component.html</context>
+          <context context-type="linenumber">7,9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/place-list/place-list.component.html</context>
+          <context context-type="linenumber">7,9</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>

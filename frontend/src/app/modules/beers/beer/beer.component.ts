@@ -1,12 +1,10 @@
 import {Component, OnInit} from '@angular/core';
-import {ActivatedRoute} from '@angular/router';
-import {filter, map, switchMap} from 'rxjs/operators';
+import {ActivatedRoute, Router} from '@angular/router';
+import {switchMap} from 'rxjs/operators';
 import {Place} from '../../../shared/models/place.model';
 import {PlacesService} from 'src/app/core/services/places.service';
 import {Beer} from '../../../shared/models/beer.model';
 import {BeersService} from '../../../core/services/beers.service';
-import {LangService} from "../../../core/services/lang.service";
-import {LoadingService} from "../../../core/services/loading.service";
 
 @Component({
   selector: 'app-beer',
@@ -14,30 +12,33 @@ import {LoadingService} from "../../../core/services/loading.service";
   styleUrls: ['./beer.component.scss']
 })
 export class BeerComponent implements OnInit {
-  beer!: Beer;
-  places: Place[] = [];
-  currentLang$ = this.langService.getCurrentLang;
-  errorMessage: Record<string, string> = {};
+  public beer?: Beer;
+  public places: Place[] = [];
 
   constructor(
     private readonly route: ActivatedRoute,
+    private readonly router: Router,
     private readonly placeService: PlacesService,
-    private readonly beerService: BeersService,
-    private readonly langService: LangService
+    private readonly beerService: BeersService
   ) {
+  }
+
+  get currentLocal(): string {
+    return $localize.locale ?? 'en'; // default local is english
   }
 
   ngOnInit(): void {
     this.route.params.pipe(
-      filter(params => !!params.id),
       switchMap(params => this.beerService.get(params.id)),
       switchMap(beer => {
         this.beer = beer;
-        return this.placeService.getByIds(this.beer.placesId);
+        console.log(beer)
+        return this.placeService.getByIds(this.beer!.placesId);
       })
     ).subscribe(
       places => this.places = places,
-      err => this.errorMessage = err.error
+      () => this.router.navigate(['beers'])
     );
   }
+
 }

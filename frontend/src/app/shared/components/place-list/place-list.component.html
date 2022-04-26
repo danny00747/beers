@@ -1,23 +1,9 @@
 <mat-card *ngFor="let place of places" class="place">
-  <div class="infos" *ngIf="currentLang$ | async as currentLang">
-
-    <div class="header">
-      <h1>{{ place.name }}</h1>
-      <div class="actions">
-        <button mat-mini-fab color="primary" (click)="editPlace(place)">
-          <mat-icon>edit</mat-icon>
-        </button>
-        <button mat-mini-fab color="warn" (click)="deletePlace(place)">
-          <mat-icon>delete</mat-icon>
-        </button>
-      </div>
-    </div>
+  <div class="infos">
+    <h1>{{ place.name }}</h1>
     <h2>Type: {{ place.type }}</h2>
-    <h2>{{ 'PLACES.CITY' | translate }}: {{ place.cityId | cityName | async }}</h2>
-    <h2>{{ 'PLACES.ADDRESS' | translate }}: {{ place.address }}</h2>
-    <button mat-raised-button color="accent" class="btn" [routerLink]="'/places/' + place.id">{{ 'PLACES.MORE_DETAILS' | translate }}</button>
-    <div class="space"></div>
-    <h4 class="footer">{{ 'PLACES.DATE' | translate }} {{place.createdAt[currentLang] }}</h4>
+    <h2 i18n="@@place.city">City: {{ place.cityId | cityName | async }}</h2>
+    <h2 i18n="@@place.address">Address: {{ place.address }}</h2>
+    <button mat-raised-button color="accent" [routerLink]="'/places/' + place.id" i18n="@@more.details">More details</button>
   </div>
 </mat-card>
-

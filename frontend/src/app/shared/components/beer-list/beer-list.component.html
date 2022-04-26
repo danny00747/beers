@@ -1,25 +1,9 @@
 <mat-card *ngFor="let beer of beers" class="beer">
   <img alt="Beer" [src]="'assets/images/beers/' + beer.imageSrc">
-  <div class="infos" *ngIf="currentLang$ | async as currentLang">
-
-    <div class="header">
-      <h1>{{ beer.name }}</h1>
-      <div class="actions">
-        <button mat-mini-fab color="primary" (click)="editBeer(beer)">
-          <mat-icon>edit</mat-icon>
-        </button>
-        <button mat-mini-fab color="warn" (click)="deleteBeer(beer)">
-          <mat-icon>delete</mat-icon>
-        </button>
-      </div>
-    </div>
+  <div class="infos">
+    <h1>{{ beer.name }}</h1>
     <h2>Style: {{ beer.typeId | beerTypeName | async }}</h2>
-    <h2>{{ 'BEERS.ABV' | translate }}: {{ beer.abv }}%</h2>
-    <button mat-raised-button color="accent" [routerLink]="'/beers/' + beer.id">{{ 'PLACES.MORE_DETAILS' | translate }}
-    </button>
-    <div class="space"></div>
-    <h4 class="footer">{{ 'PLACES.DATE' | translate }} {{beer.createdAt[currentLang] }}</h4>
+    <h2 i18n="@@beer.abv">ABV: {{ beer.abv }}%</h2>
+    <button mat-raised-button color="accent" [routerLink]="'/beers/' + beer.id" i18n="@@more.details">More details</button>
   </div>
 </mat-card>
-
-

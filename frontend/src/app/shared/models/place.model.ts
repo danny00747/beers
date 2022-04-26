@@ -8,15 +8,4 @@ export interface Place {
   cityId: string;
   url: string;
   beersId: string[];
-  createdAt: any;
-}
-
-
-export interface PlaceDTO {
-  name: string;
-  type: string;
-  address: string;
-  cityDTO: Record<string, string>;
-  url: string;
-  beersId: string[];
 }

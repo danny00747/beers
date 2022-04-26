@@ -1,7 +1,7 @@
 <form class="header" [formGroup]="placeFilter">
-  <h1 class="mat-display-2">{{ 'PLACES.TITLE' | translate }}</h1>
+  <h1 class="mat-display-2" i18n="@@place.title">Find a place</h1>
   <mat-form-field>
-    <mat-label>{{ 'PLACES.PLACE_TYPE' | translate }}</mat-label>
+    <mat-label  i18n="@@place.type.label">Place type</mat-label>
     <mat-select formControlName="type">
       <mat-option [value]="undefined"></mat-option>
       <mat-option [value]="PlaceType.bar">{{ PlaceType.bar }}</mat-option>
@@ -11,14 +11,11 @@
     </mat-select>
   </mat-form-field>
   <mat-form-field>
-    <mat-label>{{ 'PLACES.CITY' | translate }}</mat-label>
+    <mat-label  i18n="@@place.city.label">City</mat-label>
     <mat-select formControlName="cityId">
       <mat-option [value]="undefined"></mat-option>
       <mat-option *ngFor="let city of cities" [value]="city.id">{{ city.name }}</mat-option>
     </mat-select>
   </mat-form-field>
-  <button mat-fab color="primary" (click)="openDialog()">
-    <mat-icon>lock_open</mat-icon>
-  </button>
 </form>
 <app-place-list [places]="places"></app-place-list>

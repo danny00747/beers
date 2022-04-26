@@ -9,61 +9,41 @@ import { CitiesService } from './services/cities.service';
 import { PlacesService } from './services/places.service';
 import { InMemoryDataService } from './services/in-memory-data.service';
 import { RouterModule } from '@angular/router';
-import {HTTP_INTERCEPTORS, HttpClient, HttpClientModule} from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { BrowserModule } from '@angular/platform-browser';
-import { MatSelectModule } from '@angular/material/select';
-import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
-import {TranslateHttpLoader} from "@ngx-translate/http-loader";
-import {LangService} from "./services/lang.service";
-import {ToastService} from "./services/toast.service";
-import {MatSnackBar} from "@angular/material/snack-bar";
-import {LoadingService} from "./services/loading.service";
-import {LoadingInterceptor} from "./interceptors/loading.interceptor";
+import {SharedModule} from "../shared/shared.module";
 
 
 @NgModule({
   declarations: [
-    HeaderComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    SharedModule,
     HttpClientModule,
-    MatSelectModule,
-   // HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService, {dataEncapsulation: false, passThruUnknownUrl: true}),
-    TranslateModule.forRoot({
-      defaultLanguage: 'en',
-      loader: {
-        provide: TranslateLoader,
-        useFactory: (http: HttpClient) => new TranslateHttpLoader(http, './assets/i18n/', '.json'),
-        deps: [HttpClient]
-      }
-    }),
+    HttpClientInMemoryWebApiModule.forRoot(
+      InMemoryDataService, { dataEncapsulation: false }
+    ),
     RouterModule,
     MatToolbarModule,
     MatButtonModule,
-    MatIconModule,
-    TranslateModule
+    MatIconModule
   ],
   exports: [
     HeaderComponent,
     MatButtonModule,
-    MatIconModule,
-    TranslateModule,
+    MatIconModule
   ],
   providers: [
     BeersService,
     BeerTypesService,
     CitiesService,
     PlacesService,
-    LangService,
-    LoadingService,
-    ToastService,
-    MatSnackBar,
-    InMemoryDataService,
-    {provide: HTTP_INTERCEPTORS, useClass: LoadingInterceptor, multi: true}
+    InMemoryDataService
   ]
 })
 export class CoreModule { }

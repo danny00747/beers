@@ -1,6 +1,6 @@
 import { Pipe, PipeTransform } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { map } from 'rxjs/operators';
+import { map, tap } from 'rxjs/operators';
 import { BeerTypesService } from '../../core/services/beer-types.service';
 
 @Pipe({
@@ -13,7 +13,9 @@ export class BeerTypeNamePipe implements PipeTransform {
 
   transform(id?: string): Observable<string> {
     return id ? this.beerTypesService.getAll().pipe(
-      map(beerTypes => beerTypes.find(beerType => beerType.id === id)!.name)
+      map(beerTypes => beerTypes.find(beerType => beerType.id === id)!.name),
+     tap((e) => console.log(e)
+     )
     ) : of('No id');
   }
 }

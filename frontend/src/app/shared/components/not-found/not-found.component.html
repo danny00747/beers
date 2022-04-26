@@ -1,9 +1,0 @@
-<div id="notfound" *ngIf="currentLang$ | async as currentLang">
-  <div class="notfound">
-    <div class="notfound-404"></div>
-    <h1 class="font-weight-bolder text-monospace font-italic">404</h1>
-    <h2 class="font-weight-bolder text-monospace font-italic">{{errorMessage[currentLang]}}</h2>
-    <p class="text-monospace font-italic">{{ 'NOT_FOUND.MESSAGE' | translate }}</p>
-    <a [routerLink]="['/home']" class="text-monospace font-italic">{{ 'NOT_FOUND.PREVIOUS_PAGE' | translate }}</a>
-  </div>
-</div>
